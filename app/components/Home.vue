@@ -26,6 +26,16 @@
               @mapReady="onMapReady"
               focusPos="45.19199, 5.7190"
             />
+            <MapView
+              lat="45.19199"
+              height="300px"
+              width="100%"
+              lng="5.7190"
+              @ready="onReady"
+              @mapTap="onTap"
+              @mapLongPress="onLongPress"
+              @markerTap="onMarkerTap"
+            />
           </FlexboxLayout>
         </v-template>
       </CollectionView>
